@@ -9,6 +9,7 @@ eureka:
       defaultZone: http://15.164.170.14:8761/eureka
   instance:
     hostname: gateway-api
+    prefer-ip-address: true
 
 
 spring:
