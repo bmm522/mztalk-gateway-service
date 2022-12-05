@@ -6,7 +6,7 @@ eureka:
     register-with-eureka:  true
     fetch-registry: true
     service-url:
-      defaultZone: http://52.79.237.139:8761/eureka/
+      defaultZone: http://15.164.170.14:8761/eureka
   instance:
     hostname: gateway-api
 
