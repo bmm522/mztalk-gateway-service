@@ -41,7 +41,7 @@ spring:
               - RefreshToken 
       routes:
         - id: mentor-service
-          uri: http://localhost:8080/mentors
+          uri: http://13.125.248.246:8080/mentors
           predicates:
             - Path=/mentors/**
 
